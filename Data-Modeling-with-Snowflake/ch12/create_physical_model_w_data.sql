@@ -1,4 +1,4 @@
-create database demo_tpch; 
+use database model_eval; 
 
 create schema operations 
 WITH MANAGED ACCESS  
