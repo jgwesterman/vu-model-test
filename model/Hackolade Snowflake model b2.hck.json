@@ -1,0 +1,210 @@
+{
+    "modelName": "New model",
+    "collections": [
+        {
+            "collectionName": "B2_TEST_TABLE",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "B2_ID",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "a63668b4-eea5-43b6-85f9-47d1bde404e9"
+                    },
+                    "tPrecision": 9,
+                    "index": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "alternateKey": false,
+                    "childType": "integer",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "clusteringKey",
+                        "partitioningKey",
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "clusteringKey": false,
+                    "partitioningKey": false,
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "8da2feb8-2242-469d-8733-bd89b4c8dac4",
+                    "error": {}
+                },
+                {
+                    "name": "Description",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "alternateKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "clusteringKey",
+                        "partitioningKey",
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "clusteringKey": false,
+                    "partitioningKey": false,
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "4a146a25-11d3-4943-957a-db163da70e60",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    },
+                    "code": "Description"
+                },
+                {
+                    "name": "Name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "alternateKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "clusteringKey",
+                        "partitioningKey",
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "clusteringKey": false,
+                    "partitioningKey": false,
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "1b578ea6-aad3-4e15-bc12-8936fd71db3a",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    },
+                    "code": "Name"
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "8b9c321a-ae78-452f-9c83-772c83cfbea0"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "formatTypeOptions": {
+                "NULL_IF": [
+                    {
+                        "NULL_IF_item": "\\N",
+                        "GUID": "5fd112b0-b7c6-4d28-90ac-2bc9e6a0d9c1"
+                    }
+                ],
+                "GUID": "caca729e-4569-4ccd-be73-7a5bbff219f1"
+            },
+            "external": false,
+            "GUID": "d412e375-9c10-4acf-b160-48d4f4022c8e",
+            "code": "B2_TEST_TABLE"
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "d412e375-9c10-4acf-b160-48d4f4022c8e": "B2_TEST_TABLE",
+        "8da2feb8-2242-469d-8733-bd89b4c8dac4": "B2_ID",
+        "1b578ea6-aad3-4e15-bc12-8936fd71db3a": "Name",
+        "4a146a25-11d3-4943-957a-db163da70e60": "Description"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "ea4961a2-f12b-4bd3-af88-ed2865e22f90"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "fa80fcfd-5837-40ad-bd3f-ec529f43c057"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "8e1bb08a-e351-4d81-b5fd-8b8448ba16ae"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVendor": "Snowflake",
+    "appTarget": "Snowflake",
+    "creationTS": "2024-03-06T16:26:11.823Z",
+    "GUID": "217a4cbf-9099-4048-8dea-6eab995c5f41",
+    "isLineageEnabled": false,
+    "lastModifTS": "2024-03-06T16:29:10.093Z",
+    "persistenceSchemaVersion": "7",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Snowflake",
+        "pluginVersion": "0.1.80",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "7.3.1"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "d412e375-9c10-4acf-b160-48d4f4022c8e",
+                        "x": 1167,
+                        "y": 1117,
+                        "width": 208,
+                        "height": 87,
+                        "color": {}
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
