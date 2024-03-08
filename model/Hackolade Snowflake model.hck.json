@@ -2097,6 +2097,590 @@
             "hackoladeMeta": {
                 "validationErrors": {}
             }
+        },
+        {
+            "collectionName": "INVOICE_LINE_ITEM_FACT",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "INVOICE_NUM",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "0ab61045-c6d9-4ec3-8cc1-e9e7dcc463d1"
+                    },
+                    "tPrecision": 9,
+                    "index": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "precision": 38,
+                    "scale": 0,
+                    "primaryKey": true,
+                    "alternateKey": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "clusteringKey",
+                        "partitioningKey",
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "clusteringKey": false,
+                    "partitioningKey": false,
+                    "compositePrimaryKey": true,
+                    "compositeUniqueKey": false,
+                    "GUID": "c22463fc-e701-4d4a-8780-64878b55d20c",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "name": "INVOICE_LINE_NUM",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "bef6d563-4896-494e-a250-ce9ae1c73f3a"
+                    },
+                    "tPrecision": 9,
+                    "index": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "precision": 38,
+                    "scale": 0,
+                    "primaryKey": true,
+                    "alternateKey": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "clusteringKey",
+                        "partitioningKey",
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "clusteringKey": false,
+                    "partitioningKey": false,
+                    "compositePrimaryKey": true,
+                    "compositeUniqueKey": false,
+                    "GUID": "5ac6a98e-e688-4d0c-b431-a8400c5fca97",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "name": "STANDARD_ITEM_NUM",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "bed0292d-7cdf-4309-8daf-c900b105d964"
+                    },
+                    "tPrecision": 9,
+                    "index": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "precision": 38,
+                    "scale": 0,
+                    "primaryKey": false,
+                    "alternateKey": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "clusteringKey",
+                        "partitioningKey",
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "clusteringKey": false,
+                    "partitioningKey": false,
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "953b273b-db3c-4eec-928f-e68341b4f8f6",
+                    "error": {},
+                    "relationshipType": "Foreign Key",
+                    "foreignCollection": "c318d22c-2937-486b-835b-42801ccc2c0b",
+                    "foreignField": [
+                        "c318d22c-2937-486b-835b-42801ccc2c0b",
+                        "739098ef-0bce-4b0d-aae9-b59d691ea109"
+                    ],
+                    "parentRelationship": "61cc45cc-d50e-4c15-9faf-51c0951143ab"
+                },
+                {
+                    "name": "PURCHASE_ORDER_NUM",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "df92768e-f8ff-4119-b3cb-a91f21cdb207"
+                    },
+                    "tPrecision": 9,
+                    "index": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "precision": 38,
+                    "scale": 0,
+                    "primaryKey": false,
+                    "alternateKey": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "clusteringKey",
+                        "partitioningKey",
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "clusteringKey": false,
+                    "partitioningKey": false,
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "e3aaab2a-3254-4579-98ca-87045adc46e1",
+                    "error": {}
+                },
+                {
+                    "name": "UNIT_OF_MEASURE_ID",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "310de42a-9a2d-4250-be4b-b4a6001478e4"
+                    },
+                    "tPrecision": 9,
+                    "index": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "precision": 38,
+                    "scale": 0,
+                    "primaryKey": false,
+                    "alternateKey": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "clusteringKey",
+                        "partitioningKey",
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "clusteringKey": false,
+                    "partitioningKey": false,
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "f64ab41b-e903-4cd9-9eb1-80bc99249aeb",
+                    "foreignCollection": "cd824ae6-4ba7-4b9e-8b8b-dc46c4620485",
+                    "foreignField": [
+                        "cd824ae6-4ba7-4b9e-8b8b-dc46c4620485",
+                        "35da00bc-9c92-42f7-8ce9-5ab695a27742"
+                    ],
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "0e1d9333-0228-4279-95a8-08315ca0679d",
+                    "error": {}
+                },
+                {
+                    "name": "PRICE",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "74c87439-b2d9-45cc-a133-67823521bc0c"
+                    },
+                    "tPrecision": 9,
+                    "index": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "precision": 38,
+                    "scale": 0,
+                    "primaryKey": false,
+                    "alternateKey": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "clusteringKey",
+                        "partitioningKey",
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "clusteringKey": false,
+                    "partitioningKey": false,
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "9fd95492-79aa-4b65-a925-65abc7ba2d32",
+                    "error": {}
+                },
+                {
+                    "name": "QUANTITY",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "89e471a3-ade5-4b86-8ab6-d6e125bbc007"
+                    },
+                    "tPrecision": 9,
+                    "index": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "precision": 38,
+                    "scale": 0,
+                    "primaryKey": false,
+                    "alternateKey": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "clusteringKey",
+                        "partitioningKey",
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "clusteringKey": false,
+                    "partitioningKey": false,
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "f1306031-76d8-4fda-9211-c6d7e68a11e6",
+                    "error": {}
+                },
+                {
+                    "name": "IINVOICE_DATE",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "index": true,
+                    "alternateKey": false,
+                    "childType": "date",
+                    "type": "string",
+                    "compositeKey": [
+                        "clusteringKey",
+                        "partitioningKey",
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "clusteringKey": false,
+                    "partitioningKey": false,
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "baae0a45-16e1-4cf6-adbc-cb3b84ecb558",
+                    "error": {}
+                },
+                {
+                    "name": "PURCHASE_DATE",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "index": true,
+                    "alternateKey": false,
+                    "childType": "date",
+                    "type": "string",
+                    "compositeKey": [
+                        "clusteringKey",
+                        "partitioningKey",
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "clusteringKey": false,
+                    "partitioningKey": false,
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "9a73e0de-1333-4bea-a5e0-ba862b5189df",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "3e3ed9ba-6f3e-49fc-a539-4ac544b08a22"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "formatTypeOptions": {
+                "NULL_IF": [
+                    {
+                        "NULL_IF_item": "\\N",
+                        "GUID": "e43f0ffb-61d6-4da5-9af9-bb74826fd212"
+                    }
+                ],
+                "GUID": "89276857-e2f7-4aea-9e30-0ec9500be86c"
+            },
+            "external": false,
+            "GUID": "d6af664d-19e4-4ce9-bafb-5e82a02b8b1e",
+            "bucketId": "1a12fa2a-05fe-4c6c-a090-4f40092e229f",
+            "uniqueKey": [
+                {
+                    "GUID": "d0a6b8da-dc03-4bc2-90a0-35f5426d9bc0"
+                },
+                {
+                    "GUID": "604a4c78-a78d-4c1c-9296-18e4d2e7491e"
+                }
+            ],
+            "primaryKey": [
+                {
+                    "GUID": "4257bc97-bb7d-44d8-8fd9-36b0491a9425",
+                    "compositePrimaryKey": [
+                        {
+                            "keyId": "c22463fc-e701-4d4a-8780-64878b55d20c"
+                        },
+                        {
+                            "keyId": "5ac6a98e-e688-4d0c-b431-a8400c5fca97"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "collectionName": "ITEM",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "STANDARD_ITEM_NUM",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "3f279da2-db10-415b-a9e2-600b44dc42d0"
+                    },
+                    "tPrecision": 9,
+                    "index": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "precision": 38,
+                    "scale": 0,
+                    "primaryKey": true,
+                    "alternateKey": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "clusteringKey",
+                        "partitioningKey",
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "clusteringKey": false,
+                    "partitioningKey": false,
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "739098ef-0bce-4b0d-aae9-b59d691ea109",
+                    "error": {},
+                    "childRelationships": [
+                        "61cc45cc-d50e-4c15-9faf-51c0951143ab"
+                    ]
+                },
+                {
+                    "name": "ITEM_DESCRIPTION",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "alternateKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "clusteringKey",
+                        "partitioningKey",
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "clusteringKey": false,
+                    "partitioningKey": false,
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "b26190a4-5bb9-48e2-9a23-aa9fdcbeed7f",
+                    "error": {}
+                },
+                {
+                    "name": "PRICE",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "d2bb28e7-e8db-4143-b60d-20ac918f6853"
+                    },
+                    "tPrecision": 9,
+                    "index": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "precision": 38,
+                    "scale": 0,
+                    "primaryKey": false,
+                    "alternateKey": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "clusteringKey",
+                        "partitioningKey",
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "clusteringKey": false,
+                    "partitioningKey": false,
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "99ca6be9-6a98-4931-94b9-1dbb892f21df",
+                    "error": {}
+                },
+                {
+                    "name": "UNIT_OF_MEASURE",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "alternateKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "clusteringKey",
+                        "partitioningKey",
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "clusteringKey": false,
+                    "partitioningKey": false,
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "4e6c0fde-4c90-4715-ac74-30533c49a385",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "c4bd38a1-94e2-4931-af8a-e9918caad67c"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "formatTypeOptions": {
+                "NULL_IF": [
+                    {
+                        "NULL_IF_item": "\\N",
+                        "GUID": "a0de78f5-00c6-4d96-b6b3-227e6a9b3a53"
+                    }
+                ],
+                "GUID": "c6d56ee2-47a9-4106-99f7-112e67da55fe"
+            },
+            "external": false,
+            "GUID": "c318d22c-2937-486b-835b-42801ccc2c0b",
+            "bucketId": "1a12fa2a-05fe-4c6c-a090-4f40092e229f"
+        },
+        {
+            "collectionName": "UNIT_OF_MEASURE_DIM",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "UNIT_OF_MEASURE_ID",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "8850d289-f21e-4249-bd5b-6171ab543248"
+                    },
+                    "tPrecision": 9,
+                    "index": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "precision": 38,
+                    "scale": 0,
+                    "primaryKey": true,
+                    "alternateKey": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "clusteringKey",
+                        "partitioningKey",
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "clusteringKey": false,
+                    "partitioningKey": false,
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "35da00bc-9c92-42f7-8ce9-5ab695a27742",
+                    "error": {},
+                    "childRelationships": [
+                        "0e1d9333-0228-4279-95a8-08315ca0679d"
+                    ]
+                },
+                {
+                    "name": "UOM_DESCRIPTION",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "alternateKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "clusteringKey",
+                        "partitioningKey",
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "clusteringKey": false,
+                    "partitioningKey": false,
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "fbf9dfed-61bd-4125-8211-aafa7df8214b",
+                    "error": {}
+                },
+                {
+                    "name": "UOM_FACTOR",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "81f410e9-fde5-4f01-8a60-77ff31490b9e"
+                    },
+                    "tPrecision": 9,
+                    "index": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "precision": 38,
+                    "scale": 0,
+                    "primaryKey": false,
+                    "alternateKey": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "clusteringKey",
+                        "partitioningKey",
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "clusteringKey": false,
+                    "partitioningKey": false,
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "4bc69b25-b212-42a1-949a-f105a7d4eff1",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "6de7eebd-2785-48e4-8a37-9610bdd6bf08"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "formatTypeOptions": {
+                "NULL_IF": [
+                    {
+                        "NULL_IF_item": "\\N",
+                        "GUID": "dd61bfac-f7ce-401c-bcb0-a09854e0abe4"
+                    }
+                ],
+                "GUID": "f9651abe-f727-4e5e-a952-b874bd87bd8a"
+            },
+            "external": false,
+            "GUID": "cd824ae6-4ba7-4b9e-8b8b-dc46c4620485",
+            "bucketId": "1a12fa2a-05fe-4c6c-a090-4f40092e229f"
         }
     ],
     "buckets": [
@@ -2136,6 +2720,25 @@
             "code": "",
             "addFieldsToBucket": true,
             "isPlugin": true
+        },
+        {
+            "name": "ACCOUNTS PAYABLE",
+            "type": "bucket",
+            "collectionIds": [
+                "d6af664d-19e4-4ce9-bafb-5e82a02b8b1e",
+                "c318d22c-2937-486b-835b-42801ccc2c0b",
+                "cd824ae6-4ba7-4b9e-8b8b-dc46c4620485"
+            ],
+            "backgroundColor": {
+                "r": 119,
+                "g": 119,
+                "b": 119,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "indexes": [],
+            "GUID": "1a12fa2a-05fe-4c6c-a090-4f40092e229f"
         }
     ],
     "views": [],
@@ -2214,16 +2817,16 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 1709,
-                        "y": 1655.9999980926514
+                        "x": 1874.6015495296072,
+                        "y": 1728.7802969305044
                     },
                     {
-                        "x": 1709,
-                        "y": 1607.9999985694885
+                        "x": 1874.6015495296072,
+                        "y": 1644.390147988415
                     },
                     {
                         "x": 1901.5,
-                        "y": 1607.9999985694885
+                        "y": 1644.390147988415
                     },
                     {
                         "x": 1901.5,
@@ -2266,8 +2869,16 @@
                 "dataType": "",
                 "shape": [
                     {
+                        "x": 1825.1015495296072,
+                        "y": 1728.7802969305044
+                    },
+                    {
+                        "x": 1825.1015495296072,
+                        "y": 1638.390147988415
+                    },
+                    {
                         "x": 1610,
-                        "y": 1655.9999980926514
+                        "y": 1638.390147988415
                     },
                     {
                         "x": 1610,
@@ -2539,6 +3150,152 @@
                     "bottom"
                 ]
             }
+        },
+        {
+            "name": "fk INVOICE_LINE_ITEM_FACT.STANDARD_ITEM_NUM to ITEM.STANDARD_ITEM_NUM",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "c318d22c-2937-486b-835b-42801ccc2c0b",
+                    "739098ef-0bce-4b0d-aae9-b59d691ea109"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "d6af664d-19e4-4ce9-bafb-5e82a02b8b1e",
+                    "953b273b-db3c-4eec-928f-e68341b4f8f6"
+                ]
+            ],
+            "isActivated": true,
+            "childCardinality": "0..n",
+            "parentCollection": "c318d22c-2937-486b-835b-42801ccc2c0b",
+            "childCollection": "d6af664d-19e4-4ce9-bafb-5e82a02b8b1e",
+            "GUID": "61cc45cc-d50e-4c15-9faf-51c0951143ab",
+            "hackoladeStyles": {
+                "GUID": "dad7f2ee-77ea-479a-a923-7a73bd3e9a3d",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 2473.630326508024,
+                        "y": 1423.8171923999262
+                    },
+                    {
+                        "x": 2510.7554879173586,
+                        "y": 1423.8171923999262
+                    },
+                    {
+                        "x": 2510.7554879173586,
+                        "y": 1407.1580898671593
+                    },
+                    {
+                        "x": 2547.8806493266925,
+                        "y": 1407.1580898671593
+                    }
+                ],
+                "sides": [
+                    "right",
+                    "left"
+                ]
+            }
+        },
+        {
+            "name": "fk Invoice.Invoice_Num to INVOICE_LINE_ITEM_FACT.INVOICE_NUM",
+            "relationshipType": "Foreign Key",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "isActivated": true,
+            "childCardinality": "0..n",
+            "parentCollection": "",
+            "childCollection": "d6af664d-19e4-4ce9-bafb-5e82a02b8b1e",
+            "GUID": "52c86cf1-a01e-4c43-b46c-2ab4a0b0645d",
+            "hackoladeStyles": {
+                "GUID": "0606c8a7-c7d9-4164-bd88-9a048f427a2e",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 2286.9065670540485,
+                        "y": 1378.2053126729381
+                    },
+                    {
+                        "x": 2286.9065670540485,
+                        "y": 1284.602656336469
+                    },
+                    {
+                        "x": 2265.5,
+                        "y": 1284.602656336469
+                    },
+                    {
+                        "x": 2265.5,
+                        "y": 1191
+                    }
+                ],
+                "sides": [
+                    "top",
+                    "bottom"
+                ]
+            }
+        },
+        {
+            "name": "fk INVOICE_LINE_ITEM_FACT.UNIT_OF_MEASURE_ID to UNIT_OF_MEASURE_DIM.UNIT_OF_MEASURE_ID",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "cd824ae6-4ba7-4b9e-8b8b-dc46c4620485",
+                    "35da00bc-9c92-42f7-8ce9-5ab695a27742"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "d6af664d-19e4-4ce9-bafb-5e82a02b8b1e",
+                    "f64ab41b-e903-4cd9-9eb1-80bc99249aeb"
+                ]
+            ],
+            "isActivated": true,
+            "childCardinality": "1",
+            "GUID": "0e1d9333-0228-4279-95a8-08315ca0679d",
+            "parentCollection": "cd824ae6-4ba7-4b9e-8b8b-dc46c4620485",
+            "childCollection": "d6af664d-19e4-4ce9-bafb-5e82a02b8b1e",
+            "hackoladeStyles": {
+                "GUID": "fcb03fb0-7247-44cf-8c73-bad4a0c3792d",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 2473.630326508024,
+                        "y": 1359.8171923999262
+                    },
+                    {
+                        "x": 2513.8639549898544,
+                        "y": 1359.8171923999262
+                    },
+                    {
+                        "x": 2513.8639549898544,
+                        "y": 1094.4480732650568
+                    },
+                    {
+                        "x": 2554.097583471684,
+                        "y": 1094.4480732650568
+                    }
+                ],
+                "sides": [
+                    "right",
+                    "left"
+                ]
+            }
         }
     ],
     "users": [],
@@ -2610,7 +3367,30 @@
         "6657476d-a42d-4537-bcc9-b883c0168337": "FK_LINEITEM_CONTAINING_PART",
         "d6d11e7e-3e6f-42b6-b372-871f2a4e0c38": "FK_LINEITEM_SUPPLIED_BY_SUPPLIER",
         "508fd659-c6e0-487d-b7ba-9abd265f8a67": "FK_SALES_ORDER_PLACED_BY_CUSTOMER",
-        "bde1d052-5242-486b-8a3e-80076ed968b0": "FK_SUPPLIER_BASED_IN_LOCATION"
+        "bde1d052-5242-486b-8a3e-80076ed968b0": "FK_SUPPLIER_BASED_IN_LOCATION",
+        "1a12fa2a-05fe-4c6c-a090-4f40092e229f": "ACCOUNTS PAYABLE",
+        "d6af664d-19e4-4ce9-bafb-5e82a02b8b1e": "INVOICE_LINE_ITEM_FACT",
+        "c22463fc-e701-4d4a-8780-64878b55d20c": "INVOICE_NUM",
+        "5ac6a98e-e688-4d0c-b431-a8400c5fca97": "INVOICE_LINE_NUM",
+        "953b273b-db3c-4eec-928f-e68341b4f8f6": "STANDARD_ITEM_NUM",
+        "e3aaab2a-3254-4579-98ca-87045adc46e1": "PURCHASE_ORDER_NUM",
+        "9fd95492-79aa-4b65-a925-65abc7ba2d32": "PRICE",
+        "f1306031-76d8-4fda-9211-c6d7e68a11e6": "QUANTITY",
+        "baae0a45-16e1-4cf6-adbc-cb3b84ecb558": "IINVOICE_DATE",
+        "9a73e0de-1333-4bea-a5e0-ba862b5189df": "PURCHASE_DATE",
+        "c318d22c-2937-486b-835b-42801ccc2c0b": "ITEM",
+        "739098ef-0bce-4b0d-aae9-b59d691ea109": "STANDARD_ITEM_NUM",
+        "b26190a4-5bb9-48e2-9a23-aa9fdcbeed7f": "ITEM_DESCRIPTION",
+        "99ca6be9-6a98-4931-94b9-1dbb892f21df": "PRICE",
+        "4e6c0fde-4c90-4715-ac74-30533c49a385": "UNIT_OF_MEASURE",
+        "cd824ae6-4ba7-4b9e-8b8b-dc46c4620485": "UNIT_OF_MEASURE_DIM",
+        "35da00bc-9c92-42f7-8ce9-5ab695a27742": "UNIT_OF_MEASURE_ID",
+        "fbf9dfed-61bd-4125-8211-aafa7df8214b": "UOM_DESCRIPTION",
+        "4bc69b25-b212-42a1-949a-f105a7d4eff1": "UOM_FACTOR",
+        "f64ab41b-e903-4cd9-9eb1-80bc99249aeb": "UNIT_OF_MEASURE_ID",
+        "61cc45cc-d50e-4c15-9faf-51c0951143ab": "fk INVOICE_LINE_ITEM_FACT.STANDARD_ITEM_NUM to ITEM.STANDARD_ITEM_NUM",
+        "52c86cf1-a01e-4c43-b46c-2ab4a0b0645d": "fk Invoice.Invoice_Num to INVOICE_LINE_ITEM_FACT.INVOICE_NUM",
+        "0e1d9333-0228-4279-95a8-08315ca0679d": "fk INVOICE_LINE_ITEM_FACT.UNIT_OF_MEASURE_ID to UNIT_OF_MEASURE_DIM.UNIT_OF_MEASURE_ID"
     },
     "definitions": {
         "type": "definitions",
@@ -2634,7 +3414,7 @@
     "creationTS": "2024-03-04T22:25:46.484Z",
     "GUID": "553e0713-77b6-4d45-bb25-e1bea7721a25",
     "isLineageEnabled": false,
-    "lastModifTS": "2024-03-04T22:34:43.527Z",
+    "lastModifTS": "2024-03-07T21:13:07.191Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -2664,8 +3444,8 @@
                     },
                     {
                         "GUID": "c8a126c4-6712-45d7-8b7a-27529f53e411",
-                        "x": 1511,
-                        "y": 1655.9999980926514,
+                        "x": 1676.6015495296072,
+                        "y": 1728.7802969305044,
                         "width": 297,
                         "height": 102,
                         "color": {}
@@ -2709,6 +3489,30 @@
                         "width": 324,
                         "height": 138,
                         "color": {}
+                    },
+                    {
+                        "GUID": "d6af664d-19e4-4ce9-bafb-5e82a02b8b1e",
+                        "x": 2154.630326508024,
+                        "y": 1295.8171923999262,
+                        "width": 319,
+                        "height": 192,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "c318d22c-2937-486b-835b-42801ccc2c0b",
+                        "x": 2547.8806493266925,
+                        "y": 1356.1580898671593,
+                        "width": 285,
+                        "height": 102,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "cd824ae6-4ba7-4b9e-8b8b-dc46c4620485",
+                        "x": 2554.097583471684,
+                        "y": 1052.4480732650568,
+                        "width": 290,
+                        "height": 84,
+                        "color": {}
                     }
                 ],
                 "erdDefinitions": {
@@ -2722,6 +3526,11 @@
                         "x": 1010,
                         "y": 1010,
                         "GUID": "2b73b98b-e85b-4624-829a-db22ddc4412c"
+                    },
+                    {
+                        "x": 2114.630326508024,
+                        "y": 1012.4480732650568,
+                        "GUID": "1a12fa2a-05fe-4c6c-a090-4f40092e229f"
                     }
                 ],
                 "collapsedNodes": [],
@@ -2742,7 +3551,13 @@
                 "diagramViews": [],
                 "decorativeSymbols": [],
                 "nestedCollectionsLayout": "horizontal",
-                "options": [],
+                "options": [
+                    {
+                        "autoWidth": false,
+                        "autoHeight": false,
+                        "GUID": "d6af664d-19e4-4ce9-bafb-5e82a02b8b1e"
+                    }
+                ],
                 "relationshipUpdateDisabled": false,
                 "displayOptions": {}
             },
